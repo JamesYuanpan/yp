@@ -130,6 +130,7 @@ public final class OpenWeatherJsonUtils {
             low = temperatureObject.getDouble(OWM_MIN);
             highAndLow = SunshineWeatherUtils.formatHighLows(context, high, low);
 
+
             parsedWeatherData[i] = date + " - " + description + " - " + highAndLow;
         }
 
